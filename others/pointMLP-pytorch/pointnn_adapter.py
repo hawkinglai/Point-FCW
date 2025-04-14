@@ -106,9 +106,9 @@ def init():
     # http://github.com/13952522076/pointMLP-pytorch/tree/d2b8dbaa06eb6176b222dcf2ad248f8438582026
     print('==> Preparing model..')
     if args.dataset == 'scan':
-        path = '/home/kitahara/Desktop/PointTDA/pointtda/others/pointMLP-pytorch/best_checkpoint_scan.pth'
+        path = '/others/pointMLP-pytorch/best_checkpoint_scan.pth'
     elif args.dataset == 'mn40':
-        path = '/home/kitahara/Desktop/PointTDA/pointtda/others/pointMLP-pytorch/best_checkpoint_model.pth'
+        path = '/others/pointMLP-pytorch/best_checkpoint_model.pth'
     else:
         print('wrong')
     model = load_pretrained(path, args.cls)
