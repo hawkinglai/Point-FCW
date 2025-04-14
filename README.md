@@ -1,10 +1,6 @@
 # Point-FCW: a TDA machine learning pipeline for point cloud classification
 Point-FCW: transposed-FCW Graph Representation for Point Cloud Classification using TDA
 
----
-
-# Point-FCW
-
 ![License Badge](https://img.shields.io/github/license/hawkinglai/Point-FCW)
 ![GitHub Stars](https://img.shields.io/github/stars/hawkinglai/Point-FCW)
 
