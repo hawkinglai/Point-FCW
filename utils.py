@@ -26,7 +26,6 @@ def classification(feature_bank, label_bank, test_feature_bank, test_label_bank,
     gamma_list = [i * 10000 / 5000 for i in range(5000)]
     best_acc, best_gamma = 0, 0
     Sim = test_feature_bank.cuda().float() @ feature_bank.cuda().permute(1, 0).float()
-    # np_Sim = torch.from_numpy(np.loadtxt('/home/kitahara/test/Point-TDA/Sim.txt')).cuda().float()
     for gamma in tqdm(gamma_list, desc="Searching best gamma"):
         logits = (-gamma * (1 - Sim)).exp() @ label_bank
         acc = cls_acc(logits, test_label_bank)
@@ -42,4 +41,4 @@ def classification(feature_bank, label_bank, test_feature_bank, test_label_bank,
         adjusted_tensor = adjust_values(tensor_np)
         # print(adjusted_tensor)
         plt.imshow(adjusted_tensor, cmap='hot', interpolation='nearest')
-        plt.savefig('/home/kitahara/Desktop/PointTDA/pointtda/plot2.pdf', bbox_inches='tight')
+        plt.savefig('/pointtda/plot2.pdf', bbox_inches='tight')
