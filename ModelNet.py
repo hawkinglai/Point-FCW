@@ -74,12 +74,6 @@ if __name__ == '__main__':
                               batch_size=32, shuffle=False, drop_last=True)
     for batch_idx, (data, label) in enumerate(train_loader):
         print(f"batch_idx: {batch_idx}  | data shape: {data.shape} | ;lable shape: {label.shape}")
-        # data = data[31]
-        # fig = plt.figure()
-        # ax = fig.add_subplot(111, projection='3d')
-        # ax.scatter(data[:, 0], data[:, 1], data[:, 2])
-        # plt.show()
-        # plt.savefig('/home/kitahara/test/Point-TDA/plot/pc_plot.pdf')
         break
 
     train_set = ModelNet40(partition='train', num_points=1024)
