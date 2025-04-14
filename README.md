@@ -12,8 +12,6 @@ Point-FCW is an open-source project for point cloud classification using **trans
 - **t-FCW Graph Representation**: A highly efficient and scalable transformation for point clouds, reducing computational complexity.
 - **Topological Data Analysis (TDA)**: Feature extraction via persistence diagrams, persistence landscapes, Betti curves, and more.
 - **Model Integration**: Enhance performance by plugging Point-FCW into existing networks like Point-NN or PointMLP.
-- **High Efficiency**: Handles large point cloud volumes with stable computational complexity.
-- **Visualization**: Enables matching score landscapes for classification progress observation.
 
 ---
 
