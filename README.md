@@ -1,10 +1,7 @@
 # Point-FCW: a TDA machine learning pipeline for point cloud classification
 Point-FCW: transposed-FCW Graph Representation for Point Cloud Classification using TDA
 
-![License Badge](https://img.shields.io/github/license/hawkinglai/Point-FCW)
-![GitHub Stars](https://img.shields.io/github/stars/hawkinglai/Point-FCW)
-
-Point-FCW is an open-source project for point cloud classification using **transposed fully connected and weighted (t-FCW)** graph representation integrated with topological data analysis (TDA). Our lightweight framework efficiently extracts features from 3D point clouds, offering a robust and complementary approach to state-of-the-art models.
+Point-FCW is a machine learning pipeline for point cloud classification using **transposed fully connected and weighted (t-FCW)** graph representation integrated with topological data analysis (TDA). Our lightweight framework efficiently extracts features from 3D point clouds, offering a robust and complementary approach to state-of-the-art models.
 
 ---
 
