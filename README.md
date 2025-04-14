@@ -22,22 +22,6 @@ cd Point-FCW
 pip install -r requirements.txt
 ```
 
-
----
-
-## 📊 Benchmark Datasets
-
-The following datasets were used for evaluation:
-- [ModelNet40](https://modelnet.cs.princeton.edu/)
-- [ScanObjectNN](https://hkust-vgd.github.io/scanobjectnn/)
-  - Sub-benchmarks: OBJ-BG, PB-T50-RS
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! 
-
 ---
 
 ## 📄 Citation
